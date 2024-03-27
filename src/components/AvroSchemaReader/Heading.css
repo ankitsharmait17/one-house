@@ -1,0 +1,20 @@
+.heading {
+    display: flex;
+    width: 310px;
+    justify-content: space-between;
+    margin-left: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.heading-name {
+    width: 150px;
+}
+
+.heading-masked {
+    width: 75px;
+}
+
+.heading-encrypted {
+    width: 85px;
+}

@@ -1,11 +1,13 @@
 import { Navigate, RouteObject } from 'react-router-dom';
 import Component1 from '../components/Component1';
 import NotFound from '../components/NotFound';
+import AvroSchemaReader from '../components/AvroSchemaReader';
+import data from '../data';
 
 export const routes: RouteObject[] = [
     {
         path: '/',
-        element: <Component1 prop1='hello' />,
+        element: <AvroSchemaReader data={data} />,
     },
     {
         path: '/route1/:route',
